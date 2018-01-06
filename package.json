@@ -1,0 +1,36 @@
+{
+  "name": "babel-plugin-transform-handy-debug",
+  "version": "1.0.0",
+  "description": "A few handy debugging shorthands",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "eslint --fix src/*",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itszero/babel-plugin-transform-handy-debug.git"
+  },
+  "keywords": [
+    "debug",
+    "babel",
+    "transform",
+    "local"
+  ],
+  "author": "Zero Cho <itszero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itszero/babel-plugin-transform-handy-debug/issues"
+  },
+  "homepage": "https://github.com/itszero/babel-plugin-transform-handy-debug#readme",
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "babel-core": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "eslint": "^4.14.0",
+    "jest": "^22.0.4"
+  }
+}
